@@ -5,7 +5,9 @@ const BodyParser = require("body-parser");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const multer = require("multer");
-const [fs, fsExtra] = require(["fs","fs-extra"]);
+const fs= require("fs");
+const fsExtra = require('fs-extra');
+
 const path = require("path");
 const { userModel } = require("./model/users");
 const { requirementModelObj } = require("./model/registration");
